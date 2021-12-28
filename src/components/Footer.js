@@ -6,12 +6,12 @@ import twitterIcon from "../images/Twitter Icon.svg";
 
 function Footer() {
 	return (
-		<footer>
+		<div className="social-media">
 			<img src={facebookIcon} alt="Facebook" />
 			<img src={githubIcon} alt="GitHub" />
 			<img src={instagramIcon} alt="Instagram" />
 			<img src={twitterIcon} alt="Twitter" />
-		</footer>
+		</div>
 	);
 }
 
