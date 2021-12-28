@@ -1,8 +1,29 @@
 body {
-  margin: 0;
+	margin: 0;
+	background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+	background-color: #23252c;
+	height: 868px;
+	width: 550px;
+	border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #F5F5F5;
+  width: 317px;
+  height: 780px;
 }
 
 #profile-pic {
-  width: 317px;
-  height: 317px;
+	width: 317px;
+	height: 317px;
 }
