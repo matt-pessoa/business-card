@@ -32,6 +32,47 @@ body {
 	border-radius: 10px 10px 0 0;
 }
 
+.info-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-heading > h1 {
+	margin: 0;
+	margin-top: 20px;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.info-heading > h2 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #f47d27;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.info-heading > a {
+	margin-bottom: 20px;
+	color: #4a4e74;
+	text-decoration: none;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
 footer {
 	position: absolute;
 	bottom: 0px;
