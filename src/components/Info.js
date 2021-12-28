@@ -6,9 +6,11 @@ import InfoSocial from "./InfoSocial";
 function Info() {
 	return (
 		<div className="info">
-			<InfoHeading />
-			<InfoSocial />
-			<InfoDetails />
+			<div className="container-info">
+				<InfoHeading />
+				<InfoSocial />
+				<InfoDetails />
+			</div>
 		</div>
 	);
 }
